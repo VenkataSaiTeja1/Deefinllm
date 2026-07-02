@@ -311,7 +311,7 @@ Reference Documents:
 
     try:
         response = client.chat.completions.create(
-        model="deepseek-chat",
+        model="deepseek-v4-flash",
         messages=[
         {
             "role": "system",
@@ -855,7 +855,7 @@ st.markdown("""
         Financial Advisory Intelligence Platform v1.0
     </p>
     <p style="color: #9ca3af; font-size: 11px; margin: 4px 0 0 0;">
-        Powered by Deepseek + Streamlit | © 2024
+        Powered by Mr. R. Veerababu-VFSTR | © 2026
     </p>
 </div>
 """, unsafe_allow_html=True)
