@@ -276,7 +276,7 @@ def process_financial_query(query: str, progress_callback=None):
     # ========================================================================
     # STAGE 4: Deepseek GENERATION (with language instruction)
     # ========================================================================
-    log_step('STAGE 4', '🤖 Calling Deepseek AI...')
+    log_step('STAGE 4', '🤖 Calling Deepseek AI')
     stage4_start = time.time()
     
     language_instruction = get_language_prompt_instruction(detected_language)
